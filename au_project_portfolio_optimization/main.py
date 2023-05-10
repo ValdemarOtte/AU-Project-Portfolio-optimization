@@ -169,7 +169,9 @@ def optimize(mu: ndarray, sigma: ndarray, gamma: ndarray) -> ndarray:
     return solution
 
 
-def plot_gamma_pdf(solutions: list[ndarray], mu: ndarray, sigma: ndarray, gammas: ndarray) -> None:
+def plot_gamma_pdf(
+    solutions: list[ndarray], mu: ndarray, sigma: ndarray, gammas: ndarray
+) -> None:
     """
     Parameters
         mu: Array with the estimated means for the stocks
@@ -191,7 +193,9 @@ def plot_gamma_pdf(solutions: list[ndarray], mu: ndarray, sigma: ndarray, gammas
     plt.show()
 
 
-def plot_w_scatter(solutions: list[ndarray], gammas: ndarray, stocks: list[str]) -> None:
+def plot_w_scatter(
+    solutions: list[ndarray], gammas: ndarray, stocks: list[str]
+) -> None:
     """
     Parameters
         stocks: A list of the names of the stocks
