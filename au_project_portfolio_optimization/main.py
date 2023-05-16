@@ -179,7 +179,7 @@ def plot_gamma_pdf(
         gamma: Numpy array with values from a gamma distribution
         solutions: Array with optimale fractions of stocks
     """
-    y = np.linspace(0, 2 * (solutions[0].transpose() @ mu), 250)
+    y = np.linspace(-(solutions[0].transpose() @ mu), 2 * (solutions[0].transpose() @ mu), 250)
 
     for solution in solutions:
         x = norm.pdf(
@@ -239,7 +239,6 @@ if __name__ == "__main__":
     # ------------------------------
     gammas = (np.arange(10) / 5) + 1
     solutions = [optimize(mu, sigma, gamma) for gamma in gammas]
-    print(type(solutions))
 
     plot_gamma_pdf(solutions, mu, sigma, gammas)
     plot_w_scatter(solutions, gammas, stocks)
