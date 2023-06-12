@@ -8,7 +8,7 @@ The description for the assignment can be found here: [Project II - Portfolio op
 Furthermore for seening reflection upon the implementation done, the discussion of Python modules used and the design choives made, then see the report under the folder "report"
 
 ### Feedback
-Code: 50/50
+Code: 50/50 \
 Solid. Complete code, well structured, good use of modules, clear variable names, good documentation, PEP8 compliant.
 
 Visualization: 25/25
