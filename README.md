@@ -7,8 +7,6 @@ The description for the assignment can be found here: [Project II - Portfolio op
 
 Furthermore for seening reflection upon the implementation done, the discussion of Python modules used and the design choives made, then see the report under the folder "report"
 
-Final score: 93.75 / 100
-
 ### Feedback
 Code: 50/50
 Solid. Complete code, well structured, good use of modules, clear variable names, good documentation, PEP8 compliant.
@@ -18,3 +16,5 @@ Solid. Clear visualizations documenting the problem being solved and supporting 
 
 Report: 18.75/25
 Minor weaknesses: Overall good report but for some aspects the level of detail/precision could be higher
+
+Final score: 93.75 / 100
