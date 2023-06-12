@@ -7,4 +7,4 @@ The description for the assignment can be found here: [Project II - Portfolio op
 
 Furthermore for seening reflection upon the implementation done, the discussion of Python modules used and the design choives made, then see the report under the folder "report"
 
-Final score: X / 100
+Final score: 93.75 / 100
