@@ -11,10 +11,10 @@ Furthermore for seening reflection upon the implementation done, the discussion 
 Code: 50/50 \
 Solid. Complete code, well structured, good use of modules, clear variable names, good documentation, PEP8 compliant.
 
-Visualization: 25/25
+Visualization: 25/25 \
 Solid. Clear visualizations documenting the problem being solved and supporting the conclusions drawn.
 
-Report: 18.75/25
+Report: 18.75/25 \
 Minor weaknesses: Overall good report but for some aspects the level of detail/precision could be higher
 
 Final score: 93.75 / 100
